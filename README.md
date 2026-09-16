@@ -24,6 +24,20 @@ cd apps/android
 ./gradlew :app:testDebugUnitTest :app:lintDebug :app:assembleDebug
 ```
 
+## Web and desktop
+
+A browser and desktop version lives in [`apps/web/`](apps/web/README.md): the same conversation
+practice, language modules, themes and learning records (backups are interchangeable with the
+phones), built with React and wrapped in Tauri for macOS, Windows and Linux. It offers two ways
+to connect: your own OpenAI API key, or **Codex on your Mac** through
+[`services/codex-proxy`](services/codex-proxy/README.md), a small local server that exposes the
+public `live/sessions` and `responses` shapes on top of a ChatGPT/Codex subscription.
+
+```sh
+cd services/codex-proxy && npm install && npm start     # prints the base URL and token
+cd apps/web && npm install && npm run dev               # http://localhost:5173, or `npm run tauri dev`
+```
+
 ## Get started
 
 You need a Mac with Xcode 26 or later, an iPhone running iOS 26.1 or later, an Apple Account, and an OpenAI API project with billing and access to GPT-Live-1 and GPT-5.6 Luna. A ChatGPT subscription does not provide API credit.
@@ -126,6 +140,7 @@ The Android release branch is being prepared separately. See [release progress](
 | Directory | Contents |
 | --- | --- |
 | `apps/android/` | Native Kotlin/Compose Android client and tests |
+| `apps/web/` | React web app and Tauri desktop shell with a TypeScript port of the learning core |
 | `apps/ios/App/` | SwiftUI views, SwiftData storage, Keychain, WebRTC transport and API coordination |
 | `apps/ios/Core/` | Language modules, teaching policy, transcripts, vocabulary evidence and recall projection |
 | `apps/ios/Tests/` | Core learning and translation tests |
@@ -135,6 +150,8 @@ The Android release branch is being prepared separately. See [release progress](
 | `docs/` | Setup, build and language-module guides |
 | `release/` | Submission drafts and public-release checks |
 | `services/api/` | Account, billing and hosted-service foundation; see its runbook before deploying |
+| `services/codex-proxy/` | Local OpenAI-shaped proxy backed by the Codex CLI subscription |
+| `verification/codex-live-smoke/` | Probes and findings behind the Codex proxy design |
 
 Read [how the language architecture works](docs/language-architecture.md) and [how to add a language](docs/add-language.md). Contributions should follow [CONTRIBUTING.md](CONTRIBUTING.md); security issues belong in the [private reporting process](SECURITY.md).
 

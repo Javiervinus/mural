@@ -6,7 +6,9 @@ Mural keeps both native apps and their API in one repository. Each has its own b
 | --- | --- |
 | `apps/ios/` | Xcode project, SwiftUI app, Swift package, signing configuration and iPhone tests |
 | `apps/android/` | Gradle project, Compose app, Android resources and Android tests |
+| `apps/web/` | Vite/React web app, TypeScript port of the learning core, Tauri desktop shell and Vitest suites |
 | `services/api/` | Account verification, minute ledger, operator tools, PostgreSQL migrations and server deployment |
+| `services/codex-proxy/` | Node proxy exposing `live/sessions` and `responses` on top of the Codex CLI subscription |
 | `shared/contracts/` | Public request and response formats |
 | `shared/fixtures/` | Learning archives and expected outcomes checked by both native clients |
 | `scripts/` | Content generation, project generation and compatibility checks |
