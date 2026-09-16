@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "api_key_used": false,
+  "model": "gpt-live-1-codex",
+  "transport": "webrtc",
+  "version": "v3",
+  "auth_type": "chatgpt",
+  "audio_frames": 254,
+  "audible_samples": 37394,
+  "first_audio_seconds": 2.834,
+  "closed_notification": true,
+  "transcripts": [
+    {
+      "role": "assistant",
+      "text": " Hola Javier"
+    },
+    {
+      "role": "assistant",
+      "text": ","
+    },
+    {
+      "role": "assistant",
+      "text": " la"
+    },
+    {
+      "role": "assistant",
+      "text": " conexión"
+    },
+    {
+      "role": "assistant",
+      "text": " de"
+    },
+    {
+      "role": "assistant",
+      "text": " voz funciona"
+    },
+    {
+      "role": "assistant",
+      "text": "."
+    }
+  ],
+  "duration_seconds": 8.348
+}

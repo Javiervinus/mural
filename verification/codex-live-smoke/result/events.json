@@ -1,0 +1,112 @@
+[
+  {
+    "seconds": 0.02,
+    "event": "initialized"
+  },
+  {
+    "seconds": 0.022,
+    "event": "authentication",
+    "type": "chatgpt"
+  },
+  {
+    "seconds": 0.118,
+    "event": "ephemeral_thread_created"
+  },
+  {
+    "seconds": 0.121,
+    "event": "local_sdp_ready"
+  },
+  {
+    "seconds": 1.282,
+    "event": "realtime_started",
+    "version": "v3"
+  },
+  {
+    "seconds": 1.282,
+    "event": "remote_sdp_received"
+  },
+  {
+    "seconds": 1.283,
+    "event": "remote_track",
+    "kind": "audio"
+  },
+  {
+    "seconds": 1.283,
+    "event": "peer_state",
+    "state": "connecting"
+  },
+  {
+    "seconds": 2.084,
+    "event": "peer_state",
+    "state": "connected"
+  },
+  {
+    "seconds": 2.393,
+    "event": "data_channel_open"
+  },
+  {
+    "seconds": 2.393,
+    "event": "data_channel_event",
+    "type": "session.started"
+  },
+  {
+    "seconds": 2.834,
+    "event": "first_audio_frame",
+    "sample_rate": 24000
+  },
+  {
+    "seconds": 3.416,
+    "event": "audio_transcript",
+    "text": " Hola Javier"
+  },
+  {
+    "seconds": 3.682,
+    "event": "audio_transcript",
+    "text": ","
+  },
+  {
+    "seconds": 3.85,
+    "event": "audio_transcript",
+    "text": " la"
+  },
+  {
+    "seconds": 3.999,
+    "event": "audio_transcript",
+    "text": " conexión"
+  },
+  {
+    "seconds": 4.219,
+    "event": "audio_transcript",
+    "text": " de"
+  },
+  {
+    "seconds": 4.436,
+    "event": "audio_transcript",
+    "text": " voz funciona"
+  },
+  {
+    "seconds": 4.58,
+    "event": "audio_transcript",
+    "text": "."
+  },
+  {
+    "seconds": 6.687,
+    "event": "data_channel_event",
+    "type": "turn.done"
+  },
+  {
+    "seconds": 8.222,
+    "event": "realtime_closed",
+    "reason": "requested"
+  },
+  {
+    "seconds": 8.224,
+    "event": "audio_track_ended",
+    "reason": "MediaStreamError"
+  },
+  {
+    "seconds": 8.226,
+    "event": "peer_state",
+    "state": "closed"
+  }
+]
