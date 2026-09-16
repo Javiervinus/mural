@@ -41,3 +41,9 @@ apps/android/local.properties
 apps/android/.idea/
 *.jks
 *.keystore
+
+# Web app and Codex proxy
+apps/web/dist/
+apps/web/src-tauri/target/
+apps/web/src-tauri/gen/schemas/
+services/codex-proxy/.local/
