@@ -1,0 +1,48 @@
+{
+  "v2_marin": {
+    "version": "v2",
+    "voice": "marin",
+    "start_rpc": "ok",
+    "spoke": false,
+    "timeout": true,
+    "realtime_error": "AVAS realtime calls require realtime v1 or v3",
+    "dc_types": []
+  },
+  "v3_marin": {
+    "version": "v3",
+    "voice": "marin",
+    "start_rpc": "ok",
+    "spoke": false,
+    "timeout": true,
+    "realtime_error": "realtime voice `marin` is not supported for v3; supported voices: juniper, maple, spruce, ember, vale, breeze, arbor, sol, cove",
+    "dc_types": []
+  },
+  "texto": [
+    {
+      "label": "config global (gpt-6-astra, effort high)",
+      "extra": {},
+      "seconds": 12.49,
+      "json_ok": true,
+      "chars": 183
+    },
+    {
+      "label": "effort low",
+      "extra": {
+        "effort": "low"
+      },
+      "seconds": 8.19,
+      "json_ok": true,
+      "chars": 176
+    },
+    {
+      "label": "effort minimal",
+      "extra": {
+        "effort": "minimal"
+      },
+      "seconds": 4.13,
+      "json_ok": false,
+      "chars": 0
+    }
+  ],
+  "success": true
+}

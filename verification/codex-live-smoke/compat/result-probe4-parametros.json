@@ -1,0 +1,270 @@
+{
+  "model": "gpt-live-1-codex",
+  "auth_type": "chatgpt",
+  "variants": [
+    {
+      "variant": "V1_base",
+      "extra_params": [],
+      "spoke": true,
+      "greeting_transcripts": [
+        [
+          "rpc:thread/realtime/transcript/delta",
+          "assistant",
+          " Hola,"
+        ],
+        [
+          "rpc:thread/realtime/transcript/delta",
+          "assistant",
+          " la conexión"
+        ]
+      ],
+      "seconds_to_first_transcript": 5.15,
+      "context_append": {
+        "accepted": true,
+        "error": null
+      },
+      "dc_event_types": [
+        "session.started",
+        "output_transcript.added",
+        "turn.created",
+        "turn.delta",
+        "session.context.appended",
+        "turn.done",
+        "session.closed"
+      ],
+      "all_transcripts": [
+        [
+          "rpc:thread/realtime/transcript/delta",
+          "assistant",
+          " Hola,"
+        ],
+        [
+          "rpc:thread/realtime/transcript/delta",
+          "assistant",
+          " la conexión"
+        ],
+        [
+          "rpc:thread/realtime/transcript/delta",
+          "assistant",
+          " funciona."
+        ],
+        [
+          "rpc:thread/realtime/transcript/delta",
+          "assistant",
+          " Dato"
+        ],
+        [
+          "rpc:thread/realtime/transcript/delta",
+          "assistant",
+          ": el"
+        ],
+        [
+          "rpc:thread/realtime/transcript/delta",
+          "assistant",
+          " usuario"
+        ],
+        [
+          "rpc:thread/realtime/transcript/delta",
+          "assistant",
+          " vive"
+        ],
+        [
+          "rpc:thread/realtime/transcript/delta",
+          "assistant",
+          " en"
+        ],
+        [
+          "rpc:thread/realtime/transcript/delta",
+          "assistant",
+          " Ecuador."
+        ],
+        [
+          "rpc:thread/realtime/transcript/done",
+          "assistant",
+          " Hola, la conexión funciona. Dato: el usuario vive en Ecuador."
+        ],
+        [
+          "dc:output_transcript.added",
+          "?",
+          " Hola,"
+        ],
+        [
+          "dc:output_transcript.added",
+          "?",
+          " la conexión"
+        ],
+        [
+          "dc:output_transcript.added",
+          "?",
+          " funciona."
+        ],
+        [
+          "dc:output_transcript.added",
+          "?",
+          " Dato"
+        ],
+        [
+          "dc:output_transcript.added",
+          "?",
+          ": el"
+        ],
+        [
+          "dc:output_transcript.added",
+          "?",
+          " usuario"
+        ],
+        [
+          "dc:output_transcript.added",
+          "?",
+          " vive"
+        ],
+        [
+          "dc:output_transcript.added",
+          "?",
+          " en"
+        ],
+        [
+          "dc:output_transcript.added",
+          "?",
+          " Ecuador."
+        ],
+        [
+          "dc:turn.done",
+          "assistant",
+          " Hola, la conexión funciona. Dato: el usuario vive en Ecuador."
+        ]
+      ],
+      "errors": [],
+      "rpc_notifications": {
+        "mcpServer/startupStatus/updated": 18,
+        "thread/realtime/started": 1,
+        "thread/realtime/sdp": 1,
+        "thread/realtime/transcript/delta": 9,
+        "thread/realtime/transcript/done": 1,
+        "thread/realtime/closed": 1
+      }
+    },
+    {
+      "variant": "V2_voice",
+      "extra_params": [
+        "voice"
+      ],
+      "spoke": true,
+      "greeting_transcripts": [
+        [
+          "dc:output_transcript.added",
+          "?",
+          " Hola,"
+        ],
+        [
+          "rpc:thread/realtime/transcript/delta",
+          "assistant",
+          " Hola,"
+        ],
+        [
+          "dc:output_transcript.added",
+          "?",
+          " la conexión"
+        ]
+      ],
+      "seconds_to_first_transcript": 2.57,
+      "dc_event_types": [
+        "session.started",
+        "output_transcript.added",
+        "turn.created",
+        "turn.delta",
+        "turn.done",
+        "session.closed"
+      ],
+      "all_transcripts": [
+        [
+          "dc:output_transcript.added",
+          "?",
+          " Hola,"
+        ],
+        [
+          "rpc:thread/realtime/transcript/delta",
+          "assistant",
+          " Hola,"
+        ],
+        [
+          "dc:output_transcript.added",
+          "?",
+          " la conexión"
+        ],
+        [
+          "rpc:thread/realtime/transcript/delta",
+          "assistant",
+          " la conexión"
+        ],
+        [
+          "dc:turn.done",
+          "assistant",
+          " Hola, la conexión"
+        ],
+        [
+          "rpc:thread/realtime/transcript/done",
+          "assistant",
+          " Hola, la conexión"
+        ]
+      ],
+      "errors": [],
+      "rpc_notifications": {
+        "warning": 1,
+        "mcpServer/startupStatus/updated": 18,
+        "thread/realtime/started": 1,
+        "thread/realtime/sdp": 1,
+        "thread/realtime/transcript/delta": 2,
+        "thread/realtime/transcript/done": 1,
+        "thread/realtime/closed": 1
+      }
+    },
+    {
+      "variant": "V3_initialItems",
+      "extra_params": [
+        "initialItems"
+      ],
+      "spoke": false,
+      "greeting_transcripts": [],
+      "seconds_to_first_transcript": null,
+      "dc_event_types": [
+        "session.started",
+        "session.closed"
+      ],
+      "all_transcripts": [],
+      "errors": [],
+      "rpc_notifications": {
+        "warning": 1,
+        "mcpServer/startupStatus/updated": 18,
+        "thread/realtime/started": 1,
+        "thread/realtime/sdp": 1,
+        "thread/realtime/closed": 1
+      }
+    },
+    {
+      "variant": "V4_ambos",
+      "extra_params": [
+        "voice",
+        "initialItems"
+      ],
+      "spoke": false,
+      "greeting_transcripts": [],
+      "seconds_to_first_transcript": null,
+      "dc_event_types": [
+        "session.started",
+        "session.usage.updated",
+        "session.closed"
+      ],
+      "all_transcripts": [],
+      "errors": [],
+      "rpc_notifications": {
+        "warning": 1,
+        "mcpServer/startupStatus/updated": 18,
+        "thread/realtime/started": 1,
+        "thread/realtime/sdp": 1,
+        "thread/realtime/closed": 1
+      }
+    }
+  ],
+  "success": true
+}

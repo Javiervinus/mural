@@ -1,0 +1,255 @@
+{
+  "model": "gpt-live-1-codex",
+  "voice_requested": "cove",
+  "history_sent": true,
+  "auth_type": "chatgpt",
+  "limits_before": {
+    "codex": {
+      "planType": "plus",
+      "primary": {
+        "usedPercent": 0,
+        "windowDurationMins": 300,
+        "resetsAt": 1789470966
+      },
+      "secondary": {
+        "usedPercent": 0,
+        "windowDurationMins": 10080,
+        "resetsAt": 1790057766
+      }
+    },
+    "_default": {
+      "planType": "plus",
+      "primary": {
+        "usedPercent": 0,
+        "windowDurationMins": 300,
+        "resetsAt": 1789470966
+      },
+      "secondary": {
+        "usedPercent": 0,
+        "windowDurationMins": 10080,
+        "resetsAt": 1790057766
+      }
+    }
+  },
+  "start_attempts": [
+    {
+      "variant": "voice+initialItems",
+      "accepted": true
+    }
+  ],
+  "start_variant_used": "voice+initialItems",
+  "commands": [
+    {
+      "command": "session.input_audio.mute",
+      "response": "sin respuesta (ni ack ni error)"
+    },
+    {
+      "command": "session.input_audio.unmute",
+      "response": "sin respuesta (ni ack ni error)"
+    },
+    {
+      "command": "session.instructions.append",
+      "response": "sin respuesta (ni ack ni error)"
+    },
+    {
+      "command": "session.thinking.append",
+      "response": "sin respuesta (ni ack ni error)"
+    },
+    {
+      "command": "session.commentary.append",
+      "response": "sin respuesta (ni ack ni error)"
+    }
+  ],
+  "session_close_via_data_channel": "cerró la sesión (thread/realtime/closed)",
+  "success": true,
+  "voice_seconds": 15.2,
+  "limits_after_reads": [
+    {
+      "t": 112.7,
+      "limits": {
+        "codex": {
+          "planType": "plus",
+          "primary": {
+            "usedPercent": 0,
+            "windowDurationMins": 300,
+            "resetsAt": 1789471026
+          },
+          "secondary": {
+            "usedPercent": 0,
+            "windowDurationMins": 10080,
+            "resetsAt": 1790057826
+          }
+        },
+        "_default": {
+          "planType": "plus",
+          "primary": {
+            "usedPercent": 0,
+            "windowDurationMins": 300,
+            "resetsAt": 1789471026
+          },
+          "secondary": {
+            "usedPercent": 0,
+            "windowDurationMins": 10080,
+            "resetsAt": 1790057826
+          }
+        }
+      }
+    },
+    {
+      "t": 123.2,
+      "limits": {
+        "codex": {
+          "planType": "plus",
+          "primary": {
+            "usedPercent": 1,
+            "windowDurationMins": 300,
+            "resetsAt": 1789471026
+          },
+          "secondary": {
+            "usedPercent": 0,
+            "windowDurationMins": 10080,
+            "resetsAt": 1790057826
+          }
+        },
+        "_default": {
+          "planType": "plus",
+          "primary": {
+            "usedPercent": 1,
+            "windowDurationMins": 300,
+            "resetsAt": 1789471026
+          },
+          "secondary": {
+            "usedPercent": 0,
+            "windowDurationMins": 10080,
+            "resetsAt": 1790057826
+          }
+        }
+      }
+    },
+    {
+      "t": 143.8,
+      "limits": {
+        "codex": {
+          "planType": "plus",
+          "primary": {
+            "usedPercent": 1,
+            "windowDurationMins": 300,
+            "resetsAt": 1789471026
+          },
+          "secondary": {
+            "usedPercent": 0,
+            "windowDurationMins": 10080,
+            "resetsAt": 1790057826
+          }
+        },
+        "_default": {
+          "planType": "plus",
+          "primary": {
+            "usedPercent": 1,
+            "windowDurationMins": 300,
+            "resetsAt": 1789471026
+          },
+          "secondary": {
+            "usedPercent": 0,
+            "windowDurationMins": 10080,
+            "resetsAt": 1790057826
+          }
+        }
+      }
+    },
+    {
+      "t": 174.1,
+      "limits": {
+        "codex": {
+          "planType": "plus",
+          "primary": {
+            "usedPercent": 1,
+            "windowDurationMins": 300,
+            "resetsAt": 1789471026
+          },
+          "secondary": {
+            "usedPercent": 0,
+            "windowDurationMins": 10080,
+            "resetsAt": 1790057826
+          }
+        },
+        "_default": {
+          "planType": "plus",
+          "primary": {
+            "usedPercent": 1,
+            "windowDurationMins": 300,
+            "resetsAt": 1789471026
+          },
+          "secondary": {
+            "usedPercent": 0,
+            "windowDurationMins": 10080,
+            "resetsAt": 1790057826
+          }
+        }
+      }
+    }
+  ],
+  "limit_updates_during_session": [],
+  "quota_deltas": {
+    "codex": {
+      "primary": {
+        "before": 0,
+        "after": 1,
+        "delta_percent": 1,
+        "percent_per_voice_minute": 3.947,
+        "windowDurationMins": 300
+      },
+      "secondary": {
+        "before": 0,
+        "after": 0,
+        "delta_percent": 0,
+        "percent_per_voice_minute": 0.0,
+        "windowDurationMins": 10080
+      }
+    },
+    "_default": {
+      "primary": {
+        "before": 0,
+        "after": 1,
+        "delta_percent": 1,
+        "percent_per_voice_minute": 3.947,
+        "windowDurationMins": 300
+      },
+      "secondary": {
+        "before": 0,
+        "after": 0,
+        "delta_percent": 0,
+        "percent_per_voice_minute": 0.0,
+        "windowDurationMins": 10080
+      }
+    }
+  },
+  "data_channel_event_types": {
+    "session.started": {
+      "count": 1,
+      "sample": "{\"type\": \"session.started\", \"session\": {\"id\": \"rtc_u2_EOGkYg1Et0Dz0zRT4701y\", \"status\": \"active\", \"expires_at\": 1789460166}}"
+    },
+    "session.usage.updated": {
+      "count": 7,
+      "sample": "{\"type\": \"session.usage.updated\", \"usage\": {\"audio_duration_ms\": 14000, \"backend_model_usage\": []}, \"usage_limit\": {\"status\": null, \"reset_seconds\": null}}"
+    },
+    "error": {
+      "count": 9,
+      "sample": "{\"type\": \"error\", \"event_id\": \"event_EOGkoVGU83dmt76YffglL\", \"error\": {\"type\": \"invalid_request_error\", \"code\": \"invalid_value\", \"message\": \"Invalid value: 'session.input_audio.mute'. Supported values are: 'session.update', 'output_audio.playback.play', 'session.feedback', 'input_audio.pause', 'input_audio.resume', 'session.context.append', 'response.item.create', 'response.create', 'delegation.context.append', 'delegation.function_call_output.create', 'output_audio.send_dtmf_event', and 'session.close'.\", \"param\": \"type\", \"event_id\": \"f5c1929f-45e8-4ddf-902f-0d2c93a14e55\"}}"
+    }
+  },
+  "rpc_notifications": {
+    "remoteControl/status/changed": 1,
+    "thread/started": 1,
+    "warning": 1,
+    "mcpServer/startupStatus/updated": 18,
+    "thread/realtime/started": 1,
+    "thread/realtime/sdp": 1,
+    "thread/realtime/error": 1,
+    "thread/realtime/closed": 1
+  },
+  "transcripts": [],
+  "history_honored": false,
+  "commentary_spoken": false,
+  "duration_seconds": 174.245
+}

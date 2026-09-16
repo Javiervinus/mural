@@ -1,0 +1,17 @@
+[
+  {
+    "label": "gpt-5.6-luna effort low (= config de Mural)",
+    "seconds": 7.17,
+    "json_ok": true
+  },
+  {
+    "label": "gpt-5.6-luna effort low, 2da corrida",
+    "seconds": 7.54,
+    "json_ok": true
+  },
+  {
+    "label": "gpt-5.6-luna effort medium",
+    "seconds": 8.03,
+    "json_ok": true
+  }
+]

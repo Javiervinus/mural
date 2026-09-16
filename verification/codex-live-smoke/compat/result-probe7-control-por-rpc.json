@@ -1,0 +1,111 @@
+{
+  "auth_type": "chatgpt",
+  "signatures": {
+    "thread/realtime/appendText": {
+      "con_solo_threadId": "Invalid request: missing field `text`"
+    },
+    "thread/realtime/appendSpeech": {
+      "con_solo_threadId": "Invalid request: missing field `text`"
+    },
+    "thread/realtime/appendAudio": {
+      "con_solo_threadId": "Invalid request: missing field `audio`"
+    }
+  },
+  "greeting_via_rpc": [
+    {
+      "method": "thread/realtime/transcript/done",
+      "role": "assistant",
+      "text": " Listo."
+    }
+  ],
+  "appendText": {
+    "kind": "ok",
+    "payload": "{}"
+  },
+  "appendText_respuesta": [
+    {
+      "method": "thread/realtime/transcript/done",
+      "role": "assistant",
+      "text": " Azul, claro, sereno."
+    }
+  ],
+  "appendSpeech": {
+    "kind": "ok",
+    "payload": "{}"
+  },
+  "appendSpeech_respuesta": [
+    {
+      "method": "thread/realtime/transcript/done",
+      "role": "assistant",
+      "text": " ¿Qué necesitas?"
+    }
+  ],
+  "stop_via_rpc": "cerró",
+  "success": true,
+  "todas_transcripciones_rpc": [
+    {
+      "method": "thread/realtime/transcript/delta",
+      "role": "assistant",
+      "text": " Listo"
+    },
+    {
+      "method": "thread/realtime/transcript/delta",
+      "role": "assistant",
+      "text": "."
+    },
+    {
+      "method": "thread/realtime/transcript/done",
+      "role": "assistant",
+      "text": " Listo."
+    },
+    {
+      "method": "thread/realtime/transcript/delta",
+      "role": "assistant",
+      "text": " Azul,"
+    },
+    {
+      "method": "thread/realtime/transcript/delta",
+      "role": "assistant",
+      "text": " claro,"
+    },
+    {
+      "method": "thread/realtime/transcript/delta",
+      "role": "assistant",
+      "text": " sereno"
+    },
+    {
+      "method": "thread/realtime/transcript/delta",
+      "role": "assistant",
+      "text": "."
+    },
+    {
+      "method": "thread/realtime/transcript/done",
+      "role": "assistant",
+      "text": " Azul, claro, sereno."
+    },
+    {
+      "method": "thread/realtime/transcript/delta",
+      "role": "assistant",
+      "text": " ¿Qué"
+    },
+    {
+      "method": "thread/realtime/transcript/delta",
+      "role": "assistant",
+      "text": " necesitas?"
+    },
+    {
+      "method": "thread/realtime/transcript/done",
+      "role": "assistant",
+      "text": " ¿Qué necesitas?"
+    }
+  ],
+  "tipos_data_channel": [
+    "output_transcript.added",
+    "session.context.appended",
+    "session.started",
+    "session.usage.updated",
+    "turn.created",
+    "turn.delta",
+    "turn.done"
+  ]
+}

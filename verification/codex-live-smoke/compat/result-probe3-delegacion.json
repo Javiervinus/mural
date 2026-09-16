@@ -1,0 +1,130 @@
+{
+  "model": "gpt-live-1-codex",
+  "auth_type": "chatgpt",
+  "A_responses_delegation": {
+    "label": "A",
+    "clientManagedHandoffs": false,
+    "started": true,
+    "transcripts_after_greeting": [],
+    "commands": [
+      {
+        "label": "inyectar mensaje de usuario",
+        "type": "response.item.create",
+        "accepted": false,
+        "error": "response.item.create requires a session with Responses delegation.",
+        "new_transcripts": []
+      },
+      {
+        "label": "pedir respuesta hablada",
+        "type": "response.create",
+        "accepted": false,
+        "error": "response.create requires a session with Responses delegation.",
+        "new_transcripts": []
+      },
+      {
+        "label": "añadir contexto en vivo",
+        "type": "session.context.append",
+        "accepted": false,
+        "error": "Invalid type for 'content': expected an array of objects, but got a string instead.",
+        "new_transcripts": []
+      }
+    ],
+    "closed_cleanly": true,
+    "all_transcripts": [],
+    "dc_event_types": {
+      "session.started": {
+        "count": 1,
+        "sample": "{\"type\": \"session.started\", \"session\": {\"id\": \"rtc_u2_EOGw6eAEa5zIGdFT2Ut7P\", \"status\": \"active\", \"expires_at\": 1789460882}}"
+      },
+      "error": {
+        "count": 3,
+        "sample": "{\"type\": \"error\", \"event_id\": \"event_EOGwKFddq3EGPtn29RKqS\", \"error\": {\"type\": \"invalid_request_error\", \"code\": \"invalid_request_error\", \"message\": \"response.item.create requires a session with Responses delegation.\", \"param\": \"type\", \"event_id\": \"7860f7f1-152e-4ae3-adaf-b2ab0b920692\"}}"
+      },
+      "session.usage.updated": {
+        "count": 2,
+        "sample": "{\"type\": \"session.usage.updated\", \"usage\": {\"audio_duration_ms\": 14000, \"backend_model_usage\": []}, \"usage_limit\": {\"status\": null, \"reset_seconds\": null}}"
+      }
+    },
+    "rpc_notifications": {
+      "thread/started": 1,
+      "warning": 1,
+      "mcpServer/startupStatus/updated": 21,
+      "thread/realtime/started": 1,
+      "thread/realtime/sdp": 1,
+      "thread/realtime/error": 1,
+      "thread/realtime/closed": 1
+    },
+    "errors": [
+      {
+        "type": "invalid_request_error",
+        "code": "invalid_request_error",
+        "message": "response.item.create requires a session with Responses delegation.",
+        "param": "type",
+        "event_id": "7860f7f1-152e-4ae3-adaf-b2ab0b920692"
+      },
+      {
+        "type": "invalid_request_error",
+        "code": "invalid_request_error",
+        "message": "response.create requires a session with Responses delegation.",
+        "param": "type",
+        "event_id": "7154440d-9007-4d2f-8025-9819a3167d0b"
+      },
+      {
+        "type": "invalid_request_error",
+        "code": "invalid_type",
+        "message": "Invalid type for 'content': expected an array of objects, but got a string instead.",
+        "param": "content",
+        "event_id": "9611d549-623d-4fe5-acdc-67f8ee2f9655"
+      }
+    ]
+  },
+  "B_client_delegation": {
+    "label": "B",
+    "clientManagedHandoffs": true,
+    "started": true,
+    "transcripts_after_greeting": [],
+    "commands": [
+      {
+        "label": "añadir contexto en vivo",
+        "type": "session.context.append",
+        "accepted": false,
+        "error": "Invalid type for 'content': expected an array of objects, but got a string instead.",
+        "new_transcripts": []
+      }
+    ],
+    "closed_cleanly": true,
+    "all_transcripts": [],
+    "dc_event_types": {
+      "session.started": {
+        "count": 1,
+        "sample": "{\"type\": \"session.started\", \"session\": {\"id\": \"rtc_u2_EOGweDDl7W74ITsH1zFmW\", \"status\": \"active\", \"expires_at\": 1789460916}}"
+      },
+      "error": {
+        "count": 1,
+        "sample": "{\"type\": \"error\", \"event_id\": \"event_EOGwt9AAN1pSlI7slF0ti\", \"error\": {\"type\": \"invalid_request_error\", \"code\": \"invalid_type\", \"message\": \"Invalid type for 'content': expected an array of objects, but got a string instead.\", \"param\": \"content\", \"event_id\": \"2e0c3fab-f463-4de4-ba2b-9022fa8b152f\"}}"
+      },
+      "session.usage.updated": {
+        "count": 1,
+        "sample": "{\"type\": \"session.usage.updated\", \"usage\": {\"audio_duration_ms\": 14000, \"backend_model_usage\": []}, \"usage_limit\": {\"status\": null, \"reset_seconds\": null}}"
+      }
+    },
+    "rpc_notifications": {
+      "warning": 1,
+      "mcpServer/startupStatus/updated": 18,
+      "thread/realtime/started": 1,
+      "thread/realtime/sdp": 1,
+      "thread/realtime/error": 1,
+      "thread/realtime/closed": 1
+    },
+    "errors": [
+      {
+        "type": "invalid_request_error",
+        "code": "invalid_type",
+        "message": "Invalid type for 'content': expected an array of objects, but got a string instead.",
+        "param": "content",
+        "event_id": "2e0c3fab-f463-4de4-ba2b-9022fa8b152f"
+      }
+    ]
+  },
+  "success": true
+}

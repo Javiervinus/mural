@@ -1,0 +1,30 @@
+{
+  "auth_type": "chatgpt",
+  "seconds": 14.51,
+  "raw_output": "{\"outcome\":\"success\",\"suggestedLevel\":2,\"nextGoal\":\"Practicar la concordancia de número: «mis amigos», no «mis amigo». El uso del pasado es correcto y el mensaje se entiende claramente.\",\"words\":[{\"lemma\":\"amigo\",\"meaning\":\"Persona con quien tienes una relación de amistad; plural: amigos.\"}]}",
+  "item_types": [
+    "userMessage",
+    "reasoning",
+    "agentMessage"
+  ],
+  "valid_json": true,
+  "parsed": {
+    "outcome": "success",
+    "suggestedLevel": 2,
+    "nextGoal": "Practicar la concordancia de número: «mis amigos», no «mis amigo». El uso del pasado es correcto y el mensaje se entiende claramente.",
+    "words": [
+      {
+        "lemma": "amigo",
+        "meaning": "Persona con quien tienes una relación de amistad; plural: amigos."
+      }
+    ]
+  },
+  "schema_keys_present": [
+    "nextGoal",
+    "outcome",
+    "suggestedLevel",
+    "words"
+  ],
+  "schema_complete": true,
+  "success": true
+}

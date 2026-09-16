@@ -1,0 +1,26 @@
+[
+  {
+    "label": "con MCP servers (config global)",
+    "thread_start_s": 0.09,
+    "turn_s": 10.12,
+    "json_ok": true
+  },
+  {
+    "label": "con MCP servers (config global)",
+    "thread_start_s": 0.08,
+    "turn_s": 5.64,
+    "json_ok": true
+  },
+  {
+    "label": "SIN MCP servers (-c mcp_servers={})",
+    "thread_start_s": 0.13,
+    "turn_s": 9.04,
+    "json_ok": true
+  },
+  {
+    "label": "SIN MCP servers (-c mcp_servers={})",
+    "thread_start_s": 0.11,
+    "turn_s": 6.73,
+    "json_ok": true
+  }
+]

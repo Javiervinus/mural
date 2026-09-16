@@ -1,0 +1,177 @@
+[
+  {
+    "method": "thread/realtime/start",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: missing field `threadId`",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/stop",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: missing field `threadId`",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/sendEvent",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/sendEvent`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/delete`, `th",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/send",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/send`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/delete`, `thread/",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/event",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/event`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/delete`, `thread",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/clientEvent",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/clientEvent`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/delete`, `",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/command",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/command`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/delete`, `thre",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/sendClientEvent",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/sendClientEvent`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/delete",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/appendAudio",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: missing field `threadId`",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/inputAudio/append",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/inputAudio/append`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/dele",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/audio/append",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/audio/append`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/delete`, ",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/inputAudio",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/inputAudio`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/delete`, `t",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/appendText",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: missing field `threadId`",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/sendText",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/sendText`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/delete`, `thr",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/context/append",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/context/append`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/delete`",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/appendContext",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/appendContext`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/delete`,",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/mute",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/mute`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/delete`, `thread/",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/pause",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/pause`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/delete`, `thread",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/interrupt",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/interrupt`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/delete`, `th",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/update",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/update`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/delete`, `threa",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/status",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/status`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/delete`, `threa",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/read",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/read`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/delete`, `thread/",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/voices",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/voices`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/delete`, `threa",
+    "kind": "error"
+  },
+  {
+    "method": "thread/realtime/listVoices",
+    "exists": true,
+    "code": null,
+    "message": "",
+    "kind": "ok"
+  },
+  {
+    "method": "thread/realtime/estoNoExiste",
+    "exists": true,
+    "code": -32600,
+    "message": "Invalid request: unknown variant `thread/realtime/estoNoExiste`, expected one of `initialize`, `server/diagnostics`, `thread/start`, `thread/resume`, `thread/fork`, `thread/archive`, `thread/delete`, ",
+    "kind": "error"
+  }
+]
