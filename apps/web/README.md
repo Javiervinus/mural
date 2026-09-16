@@ -1,7 +1,7 @@
 # Mural for the web and desktop
 
 The iPhone app, rebuilt for the browser and wrapped in Tauri for macOS, Windows and Linux.
-Same conversation practice, same eight language modules and 24 themes, same learning records
+Same conversation practice, same nine language modules and 24 themes, same learning records
 (backups are interchangeable with the phone apps), same look.
 
 Two ways to connect, both chosen in **Settings → How Mural connects**:
