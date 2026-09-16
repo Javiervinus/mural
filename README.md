@@ -38,6 +38,29 @@ cd services/codex-proxy && npm install && npm start     # prints the base URL an
 cd apps/web && npm install && npm run dev               # http://localhost:5173, or `npm run tauri dev`
 ```
 
+### Run it with a ChatGPT subscription (no API key)
+
+You need [Node.js 24](https://nodejs.org) or later, [Git](https://git-scm.com) and the
+[Codex CLI](https://developers.openai.com/codex/cli) signed in to your ChatGPT account. Verified on
+macOS; the same commands should work on Linux and Windows wherever the Codex CLI runs.
+
+1. Install and sign in to Codex once: `npm install -g @openai/codex`, then `codex login` and
+   finish the sign-in in the browser.
+2. Clone this repository: `git clone https://github.com/Javiervinus/mural.git && cd mural`.
+3. In one terminal start the proxy: `cd services/codex-proxy && npm install && npm start`. Keep it
+   open. It prints a **Base URL** and a **Token**; the token is saved in `~/.config/codex-proxy`
+   and stays the same next time.
+4. In a second terminal start the app: `cd apps/web && npm install && npm run dev`, then open
+   http://localhost:5173.
+5. Pick the language to learn and the language for meanings, then open **Settings → How Mural
+   connects → Codex on my Mac** and paste the Base URL and Token. "Check connection" should show
+   your ChatGPT plan.
+6. Back on Talk, tap the microphone and allow the browser to use it. Voice minutes count against
+   your Codex plan's usage window, not a card.
+
+Next time, only steps 3 and 4 are needed. Learning records stay in that browser; export a backup
+from Settings before switching browsers or computers.
+
 ## Get started
 
 You need a Mac with Xcode 26 or later, an iPhone running iOS 26.1 or later, an Apple Account, and an OpenAI API project with billing and access to GPT-Live-1 and GPT-5.6 Luna. A ChatGPT subscription does not provide API credit.
