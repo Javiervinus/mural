@@ -17,6 +17,10 @@
     {"language": "es", "detected": "und", "confidence": 0.99, "redirect": false},
     {"language": "es", "detected": "", "confidence": 0.99, "redirect": false},
     {"language": "nb", "detected": "nb", "confidence": 0.99, "redirect": false},
-    {"language": "nb", "detected": "sv", "confidence": 0.95, "redirect": true}
+    {"language": "nb", "detected": "sv", "confidence": 0.95, "redirect": true},
+    {"language": "ko", "detected": "ko", "confidence": 0.99, "redirect": false},
+    {"language": "ko", "detected": "ko-KR", "confidence": 0.99, "redirect": false},
+    {"language": "ko", "detected": "ja", "confidence": 0.99, "redirect": true},
+    {"language": "ko", "detected": "zh", "confidence": 0.99, "redirect": true}
   ]
 }
